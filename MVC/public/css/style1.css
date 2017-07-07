@@ -1,0 +1,151 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 10px auto;
+	width: 95%;
+	border: 1px dotted #333;
+	padding: 2px;
+	font: 12pt Verdana;
+	text-align: center;
+}
+
+a, a:link, a:hover, a:active
+{
+	text-decoration: none;
+	padding: 5px;
+	color: #666;
+}
+
+a:hover
+{
+	background: lightgreen;
+	color: #131313;
+}
+
+h1
+{
+	font-size: 285%;
+}
+
+table
+{
+	margin: 20px auto;
+	width: 95%;
+}
+
+table span
+{
+	font-size: 9pt;
+}
+
+thead
+{
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+tbody
+{
+	font-size: 10.5pt;
+}
+
+thead th
+{
+	border: 2px solid skyblue;
+	padding: 3.4px 10px;
+}
+
+td
+{
+	padding: 5px 10px;
+	border: 1px solid #333;
+}
+
+.form
+{
+	text-align: center;
+	width: 69%;
+	margin: 15px auto;
+	padding: 25px 10px;
+	border: 1px solid #12CFA0;
+}
+
+.form input
+{
+	margin-top: 5px;
+	width: 42%;
+	padding: 5px 15px;
+	font-size: 9pt;
+}
+
+.form input[type='submit']
+{
+	width: 85%;
+	margin: 5px auto;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+form > .headForm
+{
+	width: 45%;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.meanings
+{
+	text-align: left;
+}
+
+.addMean
+{
+	cursor: pointer;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../imgs/addMean.jpg);
+    background-size: cover;
+}
+
+.testMean
+{
+	font-size: 25pt;
+	cursor: pointer;
+	background-color: #a8f9bb;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #00E736;
+    margin-top: -2px;
+    border: 1px solid #087A18;
+    border-radius: 5px;
+    padding: 0 4px 4px 4px;
+    text-shadow: 1px 1px 0px #333;
+}
+
+strong
+{
+	vertical-align: bottom;
+}
+
+footer
+{
+	padding: 5px;
+	border: 2px dotted #111;
+}
+
+.msg
+{
+	margin: 10px auto;
+	width: 80%;
+	border: 1px solid #333;
+	padding: 3px 30px;
+	color: #333;
+	background: lightgreen;
+}
